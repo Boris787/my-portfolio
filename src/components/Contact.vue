@@ -2,10 +2,10 @@
   <section class="contact-wrap">
     <div class="contact-wrap__text">
       <h2 class="section-header">
-        <span>Business inquiries? </span>
-        <span>Collaboration?</span>
+        <span>Tu mu dodje neki tekst</span>
+        <span>Tu mu dodje neki tekst</span>
         <br />
-        <span>Or simply want to have a chat with me?</span>
+        <span>Tu mu dodje neki tekst</span>
       </h2>
       <button type="button" class="cta-header" id="contactCta">
         <a href="#">Get in touch</a>
