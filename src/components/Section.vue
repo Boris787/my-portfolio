@@ -1,32 +1,33 @@
 <template>
   <section class="autob-wrap">
-    <h3 class="generic-header">"Tu mu dodje neki tekst"</h3>
+    <h3 class="generic-header">"This is me ↓"</h3>
     <p class="autob-wrap__text">
-      Tu mu dodje neki tekstTu mu dodje neki tekstTu mu dodje neki tekstTu mu
-      dodje neki tekstTu mu dodje neki tekstTu mu dodje neki tekstTu mu dodje
-      neki tekstTu mu dodje neki tekstTu mu dodje neki tekstTu mu dodje neki
-      tekstTu mu dodje neki tekstTu mu dodje neki tekst
+      I am a Junior Front-End developer who has a lot of ambition for work. I
+      have been in these rivers for 2 years, during that period I learned a lot
+      about this business. I am ready to sit for the junior position, but also
+      to move away from it to a higher position very quickly by progressing,
+      learning, practicing.
     </p>
-    <h3 class="autob-wrap__exp-text">Tu mu dodje neki tekst</h3>
+    <h3 class="autob-wrap__exp-text">EXPERIENCED WITH</h3>
     <div class="autob-wrap__exp">
       <div class="autob-wrap__exp__block">
-        <h4>HTML ↓</h4>
+        <h4>HTML →</h4>
         <span>Tu mu dodje neki tekst</span>
       </div>
       <div class="autob-wrap__exp__block">
-        <h4>CSS ↓</h4>
+        <h4>CSS →</h4>
+        <span>Writing clean and straightforward code</span>
+      </div>
+      <div class="autob-wrap__exp__block">
+        <h4>SASS / SCSS →</h4>
         <span>Tu mu dodje neki tekst</span>
       </div>
       <div class="autob-wrap__exp__block">
-        <h4>SASS / SCSS ↓</h4>
-        <span>Tu mu dodje neki tekst</span>
-      </div>
-      <div class="autob-wrap__exp__block">
-        <h4>JavaScript ↓</h4>
+        <h4>JavaScript →</h4>
         <span>Tu mu dodje neki tekst </span>
       </div>
       <div class="autob-wrap__exp__block">
-        <h4>VueJS ↓</h4>
+        <h4>VueJS →</h4>
         <span>Tu mu dodje neki tekst</span>
       </div>
     </div>
@@ -67,15 +68,16 @@ export default {};
   flex-wrap: wrap;
   justify-content: center;
 }
-.section-wrap__exp__block {
+.autob-wrap__exp__block {
   display: flex;
   align-items: center;
   margin: 0 25px;
 }
 h4 {
   font-size: 20px;
+  margin-right: 10px;
 }
 span {
-  font-size: 20px;
+  font-size: 17px;
 }
 </style>

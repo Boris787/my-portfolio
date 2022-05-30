@@ -30,5 +30,6 @@
 h3 {
   font-weight: 300;
   margin: 0;
+  font-size: 20px;
 }
 </style>
